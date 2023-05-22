@@ -1,0 +1,48 @@
+Path                                                                  Owner                    
+----                                                                  -----                    
+OU=OwnerRightsTest,DC=capcom,DC=local                                 CAPCOM\Domain Admins     
+CN=PC1byOwnershipTestDJWD,OU=OwnerRightsTest,DC=capcom,DC=local       CAPCOM\OwnershipTestDJWD 
+CN=PC1byOwnershipTestDOCC,OU=OwnerRightsTest,DC=capcom,DC=local       CAPCOM\OwnershipTestDOCC 
+CN=PC1byOTURAJWD,OU=OwnerRightsTest,DC=capcom,DC=local                CAPCOM\Domain Admins     
+CN=PC1byOTAU,OU=OwnerRightsTest,DC=capcom,DC=local                    CAPCOM\Domain Admins     
+CN=PC1byOTSA1,OU=OwnerRightsTest,DC=capcom,DC=local                   CAPCOM\Domain Admins     
+OU=OUbyOwnershipTestEA,OU=OwnerRightsTest,DC=capcom,DC=local          CAPCOM\Enterprise Admins 
+CN=User1by OwnershipTestEA,OU=OwnerRightsTest,DC=capcom,DC=local      CAPCOM\Enterprise Admins 
+CN=PC1byOwnershipTestEA,OU=OwnerRightsTest,DC=capcom,DC=local         CAPCOM\Enterprise Admins 
+OU=OUbyOwnershipTestDA,OU=OwnerRightsTest,DC=capcom,DC=local          CAPCOM\Domain Admins     
+CN=User1by OwnershipTestDA,OU=OwnerRightsTest,DC=capcom,DC=local      CAPCOM\Domain Admins     
+CN=PC1byOwnershipTestDA,OU=OwnerRightsTest,DC=capcom,DC=local         CAPCOM\Domain Admins     
+OU=OUbyOwnershipTestAdmin,OU=OwnerRightsTest,DC=capcom,DC=local       CAPCOM\OwnershipTestAdmin
+CN=User1by OwnershipTestAdmin,OU=OwnerRightsTest,DC=capcom,DC=local   CAPCOM\OwnershipTestAdmin
+CN=PC1byOwnershipTestAdmin,OU=OwnerRightsTest,DC=capcom,DC=local      CAPCOM\OwnershipTestAdmin
+CN=User1by OwnershipTestAO,OU=OwnerRightsTest,DC=capcom,DC=local      CAPCOM\OwnershipTestAO   
+CN=PC1byOwnershipTestAO,OU=OwnerRightsTest,DC=capcom,DC=local         CAPCOM\OwnershipTestAO   
+OU=OUbyOwnershipTestDFCD,OU=OwnerRightsTest,DC=capcom,DC=local        CAPCOM\OwnershipTestDFCD 
+CN=User1by OwnershipTestDFCD,OU=OwnerRightsTest,DC=capcom,DC=local    CAPCOM\OwnershipTestDFCD 
+CN=PC1byOwnershipTestDFCD,OU=OwnerRightsTest,DC=capcom,DC=local       CAPCOM\OwnershipTestDFCD 
+OU=OUbyOwnershipTestDFCO,OU=OwnerRightsTest,DC=capcom,DC=local        CAPCOM\OwnershipTestDFCO 
+CN=User1by OwnershipTestDFCO,OU=OwnerRightsTest,DC=capcom,DC=local    CAPCOM\OwnershipTestDFCO 
+CN=PC1byOwnershipTestDFCO,OU=OwnerRightsTest,DC=capcom,DC=local       CAPCOM\OwnershipTestDFCO 
+OU=NoOwnerRightsTest,DC=capcom,DC=local                               CAPCOM\Domain Admins     
+CN=User2by OwnershipTestDFCO,OU=NoOwnerRightsTest,DC=capcom,DC=local  CAPCOM\OwnershipTestDFCO 
+CN=PC2byOwnershipTestDFCO,OU=NoOwnerRightsTest,DC=capcom,DC=local     CAPCOM\OwnershipTestDFCO 
+CN=PC2byOwnershipTestDJWD,OU=NoOwnerRightsTest,DC=capcom,DC=local     CAPCOM\OwnershipTestDJWD 
+CN=PC2byOwnershipTestDOCC,OU=NoOwnerRightsTest,DC=capcom,DC=local     CAPCOM\OwnershipTestDOCC 
+CN=PC2byOTURAJWD,OU=NoOwnerRightsTest,DC=capcom,DC=local              CAPCOM\Domain Admins     
+CN=PC2byOTAU,OU=NoOwnerRightsTest,DC=capcom,DC=local                  CAPCOM\Domain Admins     
+CN=PC2byOTSA1,OU=NoOwnerRightsTest,DC=capcom,DC=local                 CAPCOM\Domain Admins     
+OU=OUNobyOwnershipTestEA,OU=NoOwnerRightsTest,DC=capcom,DC=local      CAPCOM\Enterprise Admins 
+CN=User2by OwnershipTestEA,OU=NoOwnerRightsTest,DC=capcom,DC=local    CAPCOM\Enterprise Admins 
+CN=PC2byOwnershipTestEA,OU=NoOwnerRightsTest,DC=capcom,DC=local       CAPCOM\Enterprise Admins 
+OU=OUNobyOwnershipTestDA,OU=NoOwnerRightsTest,DC=capcom,DC=local      CAPCOM\Domain Admins     
+CN=User2by OwnershipTestDA,OU=NoOwnerRightsTest,DC=capcom,DC=local    CAPCOM\Domain Admins     
+CN=PC2byOwnershipTestDA,OU=NoOwnerRightsTest,DC=capcom,DC=local       CAPCOM\Domain Admins     
+OU=OUNobyOwnershipTestAdmin,OU=NoOwnerRightsTest,DC=capcom,DC=local   CAPCOM\OwnershipTestAdmin
+CN=User2by OwnershipTestAdmin,OU=NoOwnerRightsTest,DC=capcom,DC=local CAPCOM\OwnershipTestAdmin
+CN=PC2byOwnershipTestAdmin,OU=NoOwnerRightsTest,DC=capcom,DC=local    CAPCOM\OwnershipTestAdmin
+CN=User2by OwnershipTestAO,OU=NoOwnerRightsTest,DC=capcom,DC=local    CAPCOM\OwnershipTestAO   
+CN=PC2byOwnershipTestAO,OU=NoOwnerRightsTest,DC=capcom,DC=local       CAPCOM\OwnershipTestAO   
+OU=OUNobyOwnershipTestDFCD,OU=NoOwnerRightsTest,DC=capcom,DC=local    CAPCOM\OwnershipTestDFCD 
+CN=User2by OwnershipTestDFCD,OU=NoOwnerRightsTest,DC=capcom,DC=local  CAPCOM\OwnershipTestDFCD 
+CN=PC2byOwnershipTestDFCD,OU=NoOwnerRightsTest,DC=capcom,DC=local     CAPCOM\OwnershipTestDFCD 
+OU=OUNobyOwnershipTestDFCO,OU=NoOwnerRightsTest,DC=capcom,DC=local    CAPCOM\OwnershipTestDFCO 

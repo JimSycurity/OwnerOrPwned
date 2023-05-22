@@ -1,0 +1,2011 @@
+**********************
+Windows PowerShell transcript start
+Start time: 20230206143356
+Username: CAPCOM\jim
+RunAs User: CAPCOM\jim
+Configuration Name: 
+Machine: CAPCOM-WKS1 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 4928
+PSVersion: 5.1.19041.2364
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.2364
+BuildVersion: 10.0.19041.2364
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Scripts\Get-ObjectOwnerInfo.txt
+AD Object:  OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Domain Admins
+
+
+ActiveDirectoryRights : GenericAll
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=PC1byOwnershipTestDJWD,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestDJWD
+ActiveDirectoryRights : DeleteTree, ExtendedRight, Delete, GenericRead
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 72e39547-7b18-11d1-adef-00c04fd8d5cd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967950-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 5f202010-79a5-11d0-9020-00c04fc2d4cf
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=PC1byOwnershipTestDOCC,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestDOCC
+ActiveDirectoryRights : DeleteTree, ExtendedRight, Delete, GenericRead
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 72e39547-7b18-11d1-adef-00c04fd8d5cd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967950-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 5f202010-79a5-11d0-9020-00c04fc2d4cf
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=PC1byOTURAJWD,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Domain Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=PC1byOTAU,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Domain Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=PC1byOTSA1,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Domain Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  OU=OUbyOwnershipTestEA,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Enterprise Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : All
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : True
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=User1by OwnershipTestEA,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Enterprise Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : All
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : True
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=PC1byOwnershipTestEA,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Enterprise Admins
+ActiveDirectoryRights : DeleteTree, ExtendedRight, Delete, GenericRead
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 72e39547-7b18-11d1-adef-00c04fd8d5cd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967950-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 5f202010-79a5-11d0-9020-00c04fc2d4cf
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : GenericAll
+InheritanceType       : All
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : True
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  OU=OUbyOwnershipTestDA,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Domain Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=User1by OwnershipTestDA,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Domain Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=PC1byOwnershipTestDA,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Domain Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 72e39547-7b18-11d1-adef-00c04fd8d5cd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967950-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 5f202010-79a5-11d0-9020-00c04fc2d4cf
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  OU=OUbyOwnershipTestAdmin,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestAdmin
+-------------------------------------------------
+AD Object:  CN=User1by OwnershipTestAdmin,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestAdmin
+-------------------------------------------------
+AD Object:  CN=PC1byOwnershipTestAdmin,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestAdmin
+ActiveDirectoryRights : DeleteTree, ExtendedRight, Delete, GenericRead
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 72e39547-7b18-11d1-adef-00c04fd8d5cd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967950-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 5f202010-79a5-11d0-9020-00c04fc2d4cf
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=User1by OwnershipTestAO,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestAO
+-------------------------------------------------
+AD Object:  CN=PC1byOwnershipTestAO,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestAO
+ActiveDirectoryRights : DeleteTree, ExtendedRight, Delete, GenericRead
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 72e39547-7b18-11d1-adef-00c04fd8d5cd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967950-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 5f202010-79a5-11d0-9020-00c04fc2d4cf
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  OU=OUbyOwnershipTestDFCD,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestDFCD
+-------------------------------------------------
+AD Object:  CN=User1by OwnershipTestDFCD,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestDFCD
+-------------------------------------------------
+AD Object:  CN=PC1byOwnershipTestDFCD,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestDFCD
+ActiveDirectoryRights : DeleteTree, ExtendedRight, Delete, GenericRead
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 72e39547-7b18-11d1-adef-00c04fd8d5cd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967950-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 5f202010-79a5-11d0-9020-00c04fc2d4cf
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  OU=OUbyOwnershipTestDFCO,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestDFCO
+-------------------------------------------------
+AD Object:  CN=User1by OwnershipTestDFCO,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestDFCO
+-------------------------------------------------
+AD Object:  CN=PC1byOwnershipTestDFCO,OU=OwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestDFCO
+ActiveDirectoryRights : DeleteTree, ExtendedRight, Delete, GenericRead
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 72e39547-7b18-11d1-adef-00c04fd8d5cd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967950-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 5f202010-79a5-11d0-9020-00c04fc2d4cf
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Domain Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=User2by OwnershipTestDFCO,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestDFCO
+-------------------------------------------------
+AD Object:  CN=PC2byOwnershipTestDFCO,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestDFCO
+ActiveDirectoryRights : DeleteTree, ExtendedRight, Delete, GenericRead
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 72e39547-7b18-11d1-adef-00c04fd8d5cd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967950-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 5f202010-79a5-11d0-9020-00c04fc2d4cf
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCO
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=PC2byOwnershipTestDJWD,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestDJWD
+ActiveDirectoryRights : DeleteTree, ExtendedRight, Delete, GenericRead
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 72e39547-7b18-11d1-adef-00c04fd8d5cd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967950-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 5f202010-79a5-11d0-9020-00c04fc2d4cf
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDJWD
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=PC2byOwnershipTestDOCC,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestDOCC
+ActiveDirectoryRights : DeleteTree, ExtendedRight, Delete, GenericRead
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 72e39547-7b18-11d1-adef-00c04fd8d5cd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967950-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 5f202010-79a5-11d0-9020-00c04fc2d4cf
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDOCC
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=PC2byOTURAJWD,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Domain Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=PC2byOTAU,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Domain Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=PC2byOTSA1,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Domain Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  OU=OUNobyOwnershipTestEA,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Enterprise Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : All
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : True
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=User2by OwnershipTestEA,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Enterprise Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : All
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : True
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=PC2byOwnershipTestEA,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Enterprise Admins
+ActiveDirectoryRights : DeleteTree, ExtendedRight, Delete, GenericRead
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 72e39547-7b18-11d1-adef-00c04fd8d5cd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967950-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 5f202010-79a5-11d0-9020-00c04fc2d4cf
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : GenericAll
+InheritanceType       : All
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Enterprise Admins
+IsInherited           : True
+InheritanceFlags      : ContainerInherit
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  OU=OUNobyOwnershipTestDA,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Domain Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=User2by OwnershipTestDA,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Domain Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=PC2byOwnershipTestDA,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\Domain Admins
+ActiveDirectoryRights : GenericAll
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 72e39547-7b18-11d1-adef-00c04fd8d5cd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967950-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 5f202010-79a5-11d0-9020-00c04fc2d4cf
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\Domain Admins
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  OU=OUNobyOwnershipTestAdmin,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestAdmin
+-------------------------------------------------
+AD Object:  CN=User2by OwnershipTestAdmin,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestAdmin
+-------------------------------------------------
+AD Object:  CN=PC2byOwnershipTestAdmin,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestAdmin
+ActiveDirectoryRights : DeleteTree, ExtendedRight, Delete, GenericRead
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 72e39547-7b18-11d1-adef-00c04fd8d5cd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967950-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 5f202010-79a5-11d0-9020-00c04fc2d4cf
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAdmin
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  CN=User2by OwnershipTestAO,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestAO
+-------------------------------------------------
+AD Object:  CN=PC2byOwnershipTestAO,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestAO
+ActiveDirectoryRights : DeleteTree, ExtendedRight, Delete, GenericRead
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 72e39547-7b18-11d1-adef-00c04fd8d5cd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967950-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 5f202010-79a5-11d0-9020-00c04fc2d4cf
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestAO
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  OU=OUNobyOwnershipTestDFCD,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestDFCD
+-------------------------------------------------
+AD Object:  CN=User2by OwnershipTestDFCD,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestDFCD
+-------------------------------------------------
+AD Object:  CN=PC2byOwnershipTestDFCD,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestDFCD
+ActiveDirectoryRights : DeleteTree, ExtendedRight, Delete, GenericRead
+InheritanceType       : None
+ObjectType            : 00000000-0000-0000-0000-000000000000
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : None
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 4c164200-20c0-11d0-a768-00aa006e0529
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : f3a64788-5306-11d1-a9c5-0000f80367c1
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 72e39547-7b18-11d1-adef-00c04fd8d5cd
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 3e0abfd0-126a-11d0-a060-00aa006c33ed
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967953-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : bf967950-0de6-11d0-a285-00aa003049e2
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : WriteProperty
+InheritanceType       : None
+ObjectType            : 5f202010-79a5-11d0-9020-00c04fc2d4cf
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : False
+InheritanceFlags      : None
+PropagationFlags      : None
+
+ActiveDirectoryRights : Self
+InheritanceType       : None
+ObjectType            : 9b026da6-0d3c-465c-8bee-5199d7165cba
+InheritedObjectType   : 00000000-0000-0000-0000-000000000000
+ObjectFlags           : ObjectAceTypePresent
+AccessControlType     : Allow
+IdentityReference     : CAPCOM\OwnershipTestDFCD
+IsInherited           : True
+InheritanceFlags      : None
+PropagationFlags      : None
+
+-------------------------------------------------
+AD Object:  OU=OUNobyOwnershipTestDFCO,OU=NoOwnerRightsTest,DC=capcom,DC=local
+Owner:  CAPCOM\OwnershipTestDFCO
+-------------------------------------------------
+**********************
+Windows PowerShell transcript end
+End time: 20230206143401
+**********************
