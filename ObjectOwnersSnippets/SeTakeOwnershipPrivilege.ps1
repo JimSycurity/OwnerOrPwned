@@ -1,4 +1,5 @@
 #Take ownership on domain root with SeTakeOwnershipPrivilege (Take Ownership of Files and Directories)
+# DO NOT USE THIS IN A PRODUCTION ENVIRONMENT!!!!!!!!!!!!111oneoneone
 $DN = (Get-ADDomain).DistinguishedName
 $ACL = Get-Acl $DN
 $ACL.Owner
